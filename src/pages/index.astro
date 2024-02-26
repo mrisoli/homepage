@@ -61,7 +61,7 @@ const { Content } = await profile.render();
             return 0;
           }).map((social) => (
             <li class="border border-black border-2 rounded-full">
-              <a href={social.data.url} class="block p-4">
+              <a aria-label={social.data.title} href={social.data.url} class="block p-4">
                 <SocialIcon id={social.data.icon} />
               </a>
             </li>
