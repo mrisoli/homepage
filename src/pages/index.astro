@@ -14,7 +14,7 @@ const { Content } = await profile.render();
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>LTree | {profile.data.name}</title>
@@ -28,8 +28,6 @@ const { Content } = await profile.render();
       </section>
       <nav>
         <ul class="flex divide-x divide-blue-700 p-2">
-          <li class="text-lg"><a class="block px-2 text-blue-500" href="/">Links</a></li>
-          <li class="text-lg"><a class="block px-2 text-blue-500" href="/postlinks">Posts</a></li>
         </ul>
       </nav>
       <ul class="flex flex-col gap-y-4 pt-10 min-w-[400px]">

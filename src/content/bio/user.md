@@ -1,6 +1,6 @@
 ---
-name: User Userson
-avatar: /uifaces-abstract.jpg
+name: Marcelo Risoli
+avatar: /avatar.jpg
 ---
 
-A user of the Astro LTree theme.
+I write and talk software

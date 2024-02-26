@@ -1,5 +1,5 @@
 ---
 title: My Blog
-url: "https://example.com"
+url: "https://blog.risoli.dev"
 order: 0
 ---

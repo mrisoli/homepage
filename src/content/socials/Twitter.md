@@ -1,6 +1,6 @@
 ---
 title: Twitter
-url: "https://twitter.com/"
+url: "https://twitter.com/mgrisoli  "
 order: 2
 icon:
   - twitter
