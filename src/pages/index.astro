@@ -17,7 +17,7 @@ const { Content } = await profile.render();
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>LTree | {profile.data.name}</title>
+    <title>{profile.data.name}</title>
   </head>
   <body>
     <main class="flex flex-col items-center justify-center p-4 pt-10">
@@ -62,7 +62,7 @@ const { Content } = await profile.render();
           }).map((social) => (
             <li class="border border-black border-2 rounded-full">
               <a href={social.data.url} class="block p-4">
-                <SocialIcon id={social.data.icon[0]}>
+                <SocialIcon id={social.data.icon} />
               </a>
             </li>
           ))

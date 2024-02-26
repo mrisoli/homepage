@@ -12,34 +12,7 @@ const socialsCollection = defineCollection({
     title: z.string(),
     url: z.string(),
     order: z.number(),
-    icon: z
-      .array(
-        z.enum([
-          "github",
-          "twitter",
-          "linkedin",
-          "instagram",
-          "facebook",
-          "youtube",
-          "twitch",
-          "tiktok",
-          "snapchat",
-          "reddit",
-          "pinterest",
-          "medium",
-          "dev",
-          "dribbble",
-          "behance",
-          "codepen",
-          "producthunt",
-          "discord",
-          "slack",
-          "whatsapp",
-          "telegram",
-          "email",
-        ]),
-      )
-      .length(1),
+    icon: z.string(),
   }),
 });
 
